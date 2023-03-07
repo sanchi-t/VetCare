@@ -11,13 +11,13 @@ const infosData = [
     },
     {
         title: 'Visit Our Location',
-        description: 'Brooklyn, NY 10003 USA',
+        description: 'Bennett University, Greater Noida ',
         icon: faMapMarker,
         background: 'dark'
     },
     {
         title: 'Call us now',
-        description: '+15697854124',
+        description: '+91 8837279098',
         icon: faPhone,
         background: 'primary'
     }

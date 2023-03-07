@@ -9,7 +9,7 @@ import cookieParser from 'cookie-parser';
 
 const app = express();
 app.use(cors());
-const port = 5000;
+const port = 4000;
 
 mongoose.connection.on("disconnected", () =>{console.log("Disconnected")})
 
@@ -42,4 +42,4 @@ app.use((err, req, res, next) =>{
         stack : err.stack,
     })
 })
-app.listen(process.env.PORT || port , ()=>{connect(); console.log("Started")})
+app.listen(process.env.PORT || port , ()=>{connect(); console.log("Started", port)})

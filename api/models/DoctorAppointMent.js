@@ -20,7 +20,7 @@ const appointMentSchema = new mongoose.Schema({
     weight:{
         type: String,
     },
-    serviceTitle:{
+    Title:{
         type: String
     },
     appointmantDate:{

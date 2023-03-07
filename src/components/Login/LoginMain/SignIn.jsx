@@ -44,7 +44,7 @@ const SignIn = ({ handleResponse }) => {
                 <Toast.Header>
                     <strong className="mr-auto">Important Info</strong>
                 </Toast.Header>
-                <Toast.Body>Use this account to sign in as a admin <br />
+                {/* <Toast.Body>Use this account to sign in as a admin <br />
                     <hr />
                     <div className='bg-dark text-white p-2 px-3 rounded'>
                         email : Admin@gmail.com <br />
@@ -54,7 +54,7 @@ const SignIn = ({ handleResponse }) => {
                     <div className='bg-primary p-2 rounded text-white'>
                         Please Don't abuse the facility
                     </div>
-                </Toast.Body>
+                </Toast.Body> */}
             </Toast>
             <h2 className="title">Sign in</h2>
             <div className="input-field">
